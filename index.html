@@ -8,56 +8,59 @@
   <script src="./app.js" defer></script>
   <title>Team members</title>
 </head>
-<body>
-  <div class="main-container">
-    <div class="container-header">
-      <div class="header-texts">
-        <p class="title">Our team</p>
-        <p class="motto">Meet the brain</p>
-        <p class="description">We are proud to have them as part of our community and look forward to continuing to push the boundaries of what's possible in the world of digital art.</p>
+<body class="">
+  <div class="main-container min-w-[412px] h-auto bg-[#F3F4F6] bg-[url('/resources/Background_decor.svg')] bg-no-repeat outfit m-4 lg:m-20 rounded-[20px] overflow-hidden grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4">
+      <div class="header-texts p-7 mt-8 h-[270px] flex flex-col gap-[7px] sm:col-span-3 xl:col-span-2 xl:mt-0">
+        <p class="title text-[#263FA9]">Our team</p>
+        <p class="motto text-[40px] font-medium">Meet the brain</p>
+        <p class="description max-w-[460px] font-extralight">We are proud to have them as part of our community and look forward to continuing to push the boundaries of what's possible in the world of digital art.</p>
       </div>
-      <div class="liam-profile-container">
-        <img src="./resources/person_1.png" alt="">
-        <div class="liam-description">
-          <p class="name">Liam Novak</p>
-          <p class="occupation">Software Engineer</p>
+      <div class="liam-profile-container text-[20px] sm:text-[16px] lg:text-[20px] relative bg-[#C1B6F8] sm:col-span-1">
+        <img class="size-full" src="./resources/person_1.png" alt="">
+        <img class="w-full absolute bottom-0 left-0" src="./resources/Gradient.svg" alt="">
+        <div class="liam-description absolute bottom-[40px] left-[30px] sm:left-[15px] sm:bottom-[15px] lg:left-[20px] lg:bottom-[20px] text-white">
+          <p class="name font-medium0">Liam Novak</p>
+          <p class="occupation sm:text-[12px] md:text-[16px] lg:text-[18px] font-extralight">Software Engineer</p>
         </div>
       </div>
-      <div class="sophia-profile-container">
-        <img src="./resources/person_2.png" alt="">
-        <div class="sophia-description">
-          <p class="name">Sophia Moretti</p>
-          <p class="occupation">Business Development Manager</p>
+      <div class="sophia-profile-container text-[20px] sm:text-[16px] lg:text-[20px] relative bg-[#EDACD2]">
+        <img class="size-full" src="./resources/person_2.png" alt="">
+        <img class="w-full absolute bottom-0 left-0" src="./resources/Gradient.svg" alt="">
+        <div class="sophia-description absolute bottom-[40px] left-[30px] sm:left-[15px] sm:bottom-[15px] lg:left-[20px] lg:bottom-[20px] text-white">
+          <p class="name font-medium">Sophia Moretti</p>
+          <p class="occupation sm:text-[12px] lg:text-[16px] font-extralight">Business Development Manager</p>
         </div>
       </div>
-      <div class="Ethan-profile-container">
-        <img src="./resources/person_3.png" alt="">
-        <div class="Ethan-description">
-          <p class="name">Ethan Rossi</p>
-          <p class="occupation">Business Development Manager</p>
+      <div class="Ethan-profile-container text-[20px] sm:text-[16px] lg:text-[20px] relative bg-[#9DC4F8]">
+        <img class="size-full" src="./resources/person_3.png" alt="">
+        <img class="w-full absolute bottom-0 left-0" src="./resources/Gradient.svg" alt="">
+        <div class="Ethan-description absolute bottom-[40px] left-[30px] sm:left-[15px] sm:bottom-[15px] lg:left-[20px] lg:bottom-[20px] text-white">
+          <p class="name font-medium">Ethan Rossi</p>
+          <p class="occupation sm:text-[12px] md:text-[16px] lg:text-[18px] font-extralight">Business Development Manager</p>
         </div>
       </div>
-      <div class="Isabella-profile-container">
-        <img src="./resources/person_4.png" alt="">
-        <div class="Isabella-description">
-          <p class="name">Isabella Ricci</p>
-          <p class="occupation">UX Designer</p>
+      <div class="Isabella-profile-container text-[20px] sm:text-[16px] lg:text-[20px] relative bg-[#F8D8B0]">
+        <img class="size-full" src="./resources/person_4.png" alt="">
+        <img class="w-full absolute bottom-0 left-0" src="./resources/Gradient.svg" alt="">
+        <div class="Isabella-description absolute bottom-[40px] left-[30px] sm:left-[15px] sm:bottom-[15px] lg:left-[20px] lg:bottom-[20px] text-white">
+          <p class="name font-medium">Isabella Ricci</p>
+          <p class="occupation sm:text-[12px] md:text-[16px] lg:text-[18px] font-extralight">UX Designer</p>
         </div>
       </div>
-      <div class="noah-profile-container">
-        <img src="./resources/person_5.png" alt="">
-        <div class="noah-description">
-          <p class="name">Noah Conti</p>
-          <p class="occupation">Content creator</p>
+      <div class="noah-profile-container text-[20px] sm:text-[16px] lg:text-[20px] relative bg-[#86E7D4]">
+        <img class="size-full" src="./resources/person_5.png" alt="">
+        <img class="w-full absolute bottom-0 left-0" src="./resources/Gradient.svg" alt="">
+        <div class="noah-description absolute bottom-[40px] left-[30px] sm:left-[15px] sm:bottom-[15px] lg:left-[20px] lg:bottom-[20px] text-white">
+          <p class="name font-medium">Noah Conti</p>
+          <p class="occupation sm:text-[12px] md:text-[16px] lg:text-[18px] font-extralight">Content creator</p>
         </div>
       </div>
-      <div class="all-member-profile-container">
-        <div class="other-members">
+      <div class="all-member-profile-container max-h-[432px] relative sm:col-start-1 sm:col-end-2 sm:row-start-3 sm:row-end-4 xl:col-start-1 xl:col-end-2 xl:row-start-2 xl:row-end-3">
+        <div class="other-members absolute bottom-[30px] left-[20px] text-black flex items-center gap-[6px]">
           <a href="#">See all members</a>
           <img src="resources/arrow up right.svg" alt="">
         </div>
       </div>
-    </div>
   </div>
 </body>
 </html>
