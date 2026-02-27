@@ -887,6 +887,10 @@ video {
   min-width: 375px;
 }
 
+.min-w-\[3705px\] {
+  min-width: 3705px;
+}
+
 .max-w-\[460px\] {
   max-width: 460px;
 }
